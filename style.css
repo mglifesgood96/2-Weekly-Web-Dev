@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+.container{
+    width: 90vw;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+p{
+    font-weight: 200;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 150%;
+}
+
+/* SECTIONS */
+.header{
+    height: 100vh;
+    background-image: url(img/header-background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header p{
+    width: 367px;
+}
+
+.cont_header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* about Us */
+
+.about_us{
+    background-color: #00b6b6;
+    color: white;
+    height: 700px;
+}
+
+.cont_about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
+}
+
+.cont_about div{
+    flex:1;
+}
+
+.cont_about img{
+    background-image: cover;
+    width: 100%;
+}
+
+/* our services */
+
+.our_services{
+    background-color: #70bfff;
+    color: white;
+    height: 800px;
+}
+
+.cont_services{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
+}
+
+.cont_services div{
+    flex:1;
+}
+
+.cont_services .text{
+    text-align: center;
+    position: relative;
+}
+
+.services_button{
+    height: 100px;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    margin: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* gallery */
+
+.gallery{
+    background-color: #ffe92f;
+    color: black;
+    height: 1535px;
+}
+
+.gallery_heading{
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.blog{
+    background-color: #b07cf7;
+    color: white;
+}
+
+.contact{
+    
+    color: white;
+}
+
+
+
