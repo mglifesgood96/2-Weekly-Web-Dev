@@ -85,6 +85,12 @@ p{
     flex:1;
 }
 
+@media (max-width: 540px) {
+  .cont_about{
+    flex-direction: column;
+  }
+}
+
 .cont_about img{
     background-image: cover;
     width: 100%;
@@ -104,6 +110,12 @@ p{
     justify-content: space-between;
     flex-direction: row;
     height: 100%;
+}
+
+@media (max-width: 720px) {
+  .cont_services{
+    flex-direction: column-reverse;
+  }
 }
 
 .cont_services div{
@@ -127,6 +139,7 @@ p{
     font-weight: 800;
     margin: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 /* gallery */
@@ -236,6 +249,12 @@ p{
     height: 100%;
 }
 
+@media (max-width: 720px) {
+  .cont_subscribe{
+    flex-direction: column-reverse;
+  }
+}
+
 .subscribe_heading{
     flex: 1 1 0px
 }
@@ -276,6 +295,7 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .blog_card{
@@ -288,6 +308,7 @@ p{
     background-size: cover;
     position: relative;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    min-width: 200px;
 }
 
 .blog__card-date{
@@ -379,13 +400,14 @@ p{
 .contact__form{
     display: flex;
     flex-direction: row;
-}
-
-.contact__form{
-    display: flex;
-    flex-direction: row;
     gap: 60px;
     justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .contact__form{
+    flex-direction: column;
+  }
 }
 
 
@@ -418,9 +440,22 @@ textarea{
     flex: 1;
 }
 
+@media (max-width: 600px) {
+  .form__inputs{
+    width: 100%;
+  }
+}
+
 .contact__info{
     flex: 1;
 }
+
+@media (max-width: 600px) {
+  .contact__info{
+    visibility: hidden;
+  }
+}
+
 
 
 
